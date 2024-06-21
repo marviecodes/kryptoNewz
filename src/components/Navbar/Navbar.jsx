@@ -1,11 +1,12 @@
 import "./Navbar.css";
-import Logo from "../../assets/logo.png";
+// import Logo from "../../assets/logo.png";
 import ArrowIcon from "../../assets/arrow_icon.png";
 
 const Navbar = () => {
   return (
     <header className="navbar">
-      <img src={Logo} alt="Navbar Logo" className="logo" />
+      {/* <img src={Logo} alt="Navbar Logo" className="logo" /> */}
+      <h1 className="logo">KryptoNewz</h1>
 
       <ul>
         <li>Home</li>
